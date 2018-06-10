@@ -1,15 +1,8 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-  console.log('I am ready!');
-});
-
-client.on('message', message => {
-  if (message.content === 'ping') {
-    console.log(message.content)
-    message.reply('pong');
-  }
-});
+const Commando = require('discord.js-commando');
+const client = new Commando.Client();
 
 client.login(process.env.BOT_TOKEN);
+
+client.registry.registerGroup('ultimus', 'Ultimus');
+client.registry.registerCommandsIn(__dirname + "/commands");
+client.registry.registerDefaults();
