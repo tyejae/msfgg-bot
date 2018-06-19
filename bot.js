@@ -3,6 +3,6 @@ const client = new Commando.Client();
 
 client.login(process.env.BOT_TOKEN);
 
-client.registry.registerGroup('ultimus', 'Ultimus');
+client.registry.registerGroup('msf.gg', 'MSG.GG');
 client.registry.registerCommandsIn(__dirname + "/commands");
 client.registry.registerDefaults();
