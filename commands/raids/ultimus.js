@@ -26,12 +26,12 @@ class CharacterCmd extends Commando.Command {
             let arg1 = args[0];
             let arg2 = args[1];
             let arg3 = args[2];
-            Request.post('https://run.tyejae.com/services/setLane', {
+            Request.post('https://run.tyejae.com/services/setLane', JSON.stringify({
                 id: mention.id,
                 raid: 'ultimus',
                 team: arg2,
                 lane: arg3
-            }, (error, response, body) => {
+            }), (error, response, body) => {
                 if (!error && response.statusCode == 200) {
                     return message.channel.send(body)
                         .then( msg => { msg.delete(2000); message.delete(2000); } )
