@@ -21,8 +21,7 @@ class CharacterCmd extends Commando.Command {
                 // console.log(body) // Print the google web page.
                 var json = 'fail';
                 try {
-                    json = JSON.parse(response.data);
-                    message.channel.send(json);
+                    message.channel.send(body);
                 } catch (ex) {
                     message.channel.send(ex);
                 }
