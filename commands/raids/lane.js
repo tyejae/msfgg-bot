@@ -18,7 +18,7 @@ class LaneCmd extends Commando.Command {
     async run(message, args) {
         args = args.replace(/  /g, ' ').split(" ");
         let id = 0;
-        message.channel.send(args.length)
+        message.channel.send(args[0])
         if (args.length === 0) {
             id = message.author.id;
         } else {
