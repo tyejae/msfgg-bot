@@ -20,6 +20,8 @@ class CharacterCmd extends Commando.Command {
             if (!error && response.statusCode == 200) {
                 // console.log(body) // Print the google web page.
                 message.channel.send(response)
+            } else {
+                message.channel.send(error)
             }
         })
         return message.channel.send('WIP')
