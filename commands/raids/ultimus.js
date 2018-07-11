@@ -1,7 +1,5 @@
 const Commando = require('discord.js-commando');
-const Challenges = require('../../assets/challenges.json');
-const Footer = require('../../assets/footer.json');
-const Moment = require('moment-timezone');
+const Request = require('request');
 let bot
 class CharacterCmd extends Commando.Command {
     constructor(client) {
@@ -18,6 +16,12 @@ class CharacterCmd extends Commando.Command {
     
 
     async run(message, args) {
+        request('http://www.google.com', function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                // console.log(body) // Print the google web page.
+                message.channel.send('yay')
+            }
+        })
         return message.channel.send('WIP')
             .then(msg => console.log('Sent challenges to channel'))
             .catch(console.error);
