@@ -17,7 +17,8 @@ class LaneCmd extends Commando.Command {
 
     async run(message, args) {
         args = args.replace(/  /g, ' ').split(" ");
-        let id;
+        let id = 0;
+        message.channel.send(args.length)
         if (args.length === 0) {
             id = message.author.id;
         } else {
@@ -31,7 +32,7 @@ class LaneCmd extends Commando.Command {
             }
         }
         
-        if (id) {
+        if (id > 0) {
             Request(`https://run.tyejae.com/services/getLane?id=${id}`, function (error, response, body) {
                 if (!error && response.statusCode == 200) {
                     try {
