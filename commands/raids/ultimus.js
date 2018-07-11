@@ -16,7 +16,7 @@ class CharacterCmd extends Commando.Command {
     
 
     async run(message, args) {
-        request('http://www.google.com', function (error, response, body) {
+        Request('http://www.google.com', function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 // console.log(body) // Print the google web page.
                 message.channel.send('yay')
