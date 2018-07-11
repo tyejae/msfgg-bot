@@ -18,7 +18,6 @@ class LaneCmd extends Commando.Command {
     async run(message, args) {
         args = args.replace(/  /g, ' ').split(" ");
         let id = args[0];
-        message.channel.send(`id: '${args[0]}'`)
         if (args[0] === '') {
             id = message.author.id;
         } else {
@@ -39,12 +38,20 @@ class LaneCmd extends Commando.Command {
                         let json = JSON.parse(body);
                         let member = message.guild.members.array().forEach(member => {
                             if (member.id === id) {
-                                message.channel.send(member.displayName);
+                                json.forEach(assignment => {
+                                    const embed = {
+                                        "color": 0,
+                                        "author": {
+                                            "name": `${member.displayName} - ${assignment.raid.toUpperCase()}`
+                                        },
+                                        "description": `Team: ${assignment.team}\nLane: ${assignment.lane}`
+                                    };
+                                    message.channel.send({
+                                        embed: embed
+                                    });
+                                });
                             }
                         });
-                        
-                        // message.channel.send(json);
-                        
                     } catch (ex) {
                         message.channel.send(ex);
                     }
