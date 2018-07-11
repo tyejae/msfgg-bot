@@ -33,7 +33,7 @@ class CharacterCmd extends Commando.Command {
                 lane: arg3
             }, (error, response, body) => {
                 if (!error && response.statusCode == 200) {
-                    return message.channel.send('Assignment set!')
+                    return message.channel.send(body)
                         .then( msg => { msg.delete(2000); message.delete(2000); } )
                         .catch(console.error);
                 } else {
