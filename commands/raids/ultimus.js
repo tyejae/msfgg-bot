@@ -17,12 +17,16 @@ class CharacterCmd extends Commando.Command {
 
     async run(message, args) {
         args = args.replace(/  /g, ' ').split(" ");
-        if (args.length < 3) {
-            message.channel.send('You are using this command incorrectly. Use ```!help ultimus``` to learn moare')
+        if (args.length < 3 || args.length > 3) {
+            message.channel.send('You are using this command incorrectly. Use ```!help ultimus``` to learn more.')
+                .then(msg => msg.delete(2000));
         } else {
-            message.channel.send(args)
-            return message.channel.send('WIP')
-                .then(msg => console.log('Sent challenges to channel'))
+            let mention = message.mentions.members.first();
+            let arg1 = args[0];
+            let arg2 = args[1];
+            let arg3 = args[2];
+            return message.channel.send(arg1)
+                .then(msg => { console.log('Sent challenges to channel'); msg.delete(2000) })
                 .catch(console.error);
         }
         // Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
