@@ -1,7 +1,7 @@
 const Commando = require('discord.js-commando');
 const Request = require('request');
 let bot
-class CharacterCmd extends Commando.Command {
+class UltimusCmd extends Commando.Command {
     constructor(client) {
         bot = client;
         super(client, {
@@ -40,29 +40,13 @@ class CharacterCmd extends Commando.Command {
               };
             Request.post(postBody, (error, response, body) => {
                 if (!error && response.statusCode == 200) {
-                    return message.channel.send('Assignment set!')
-                        .then( msg => { msg.delete(2000); message.delete(2000); } )
+                    return message.channel.send(`Assignment set for ${mention.displayName}!`)
                         .catch(console.error);
                 } else {
                     message.channel.send(error)
                 }
             });
         }
-        
-        // Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
-        //     if (!error && response.statusCode == 200) {
-        //         // console.log(body) // Print the google web page.
-        //         var json = 'fail';
-        //         try {
-        //             json = JSON.parse(body);
-        //             message.channel.send(json[0].teamname);
-        //         } catch (ex) {
-        //             message.channel.send(ex);
-        //         }
-        //     } else {
-        //         message.channel.send(error)
-        //     }
-        // })
     }
 }
-module.exports = CharacterCmd
+module.exports = UltimusCmd
