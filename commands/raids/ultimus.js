@@ -16,10 +16,10 @@ class CharacterCmd extends Commando.Command {
     
 
     async run(message, args) {
-        Request('http://www.google.com', function (error, response, body) {
+        Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 // console.log(body) // Print the google web page.
-                message.channel.send('yay')
+                message.channel.send(response)
             }
         })
         return message.channel.send('WIP')
