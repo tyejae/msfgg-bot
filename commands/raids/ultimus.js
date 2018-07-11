@@ -25,10 +25,11 @@ class CharacterCmd extends Commando.Command {
             let arg1 = args[0];
             let arg2 = args[1];
             let arg3 = args[2];
-            return message.channel.send(arg1)
-                .then(msg => { console.log('Sent challenges to channel'); msg.delete(2000) })
+            return message.channel.send(mention.id)
+                .then( msg => msg.delete(2000) )
                 .catch(console.error);
         }
+        message.delete(2000);
         // Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
         //     if (!error && response.statusCode == 200) {
         //         // console.log(body) // Print the google web page.
