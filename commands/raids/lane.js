@@ -18,7 +18,8 @@ class LaneCmd extends Commando.Command {
     async run(message, args) {
         args = args.replace(/  /g, ' ').split(" ");
         let id = args[0];
-        if (!id) {
+        message.channel.send(args[0])
+        if (args.length === 0) {
             id = message.author.id;
         } else {
             let mention = message.mentions.members.first();
@@ -30,13 +31,14 @@ class LaneCmd extends Commando.Command {
                     .catch(console.error);
             }
         }
-        
+        message.channel.send(id).then(msg => msg.delete(1000));
         if (id > 0) {
             Request(`https://run.tyejae.com/services/getLane?id=${id}`, function (error, response, body) {
                 if (!error && response.statusCode == 200) {
                     try {
                         let json = JSON.parse(body);
                         // let member = message.guild.members.fetch(json.id);
+                        // message.channel.send(member.displayName);
                         message.channel.send(json);
                         
                     } catch (ex) {
