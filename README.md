@@ -1,2 +1,2 @@
-# helix-ultimus-bot
-Helix Guardians Ultimus Raid Organizer Bot
+# msfgg-bot
+MSF.gg bot controls and raid organizer
