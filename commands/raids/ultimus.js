@@ -16,19 +16,21 @@ class CharacterCmd extends Commando.Command {
     
 
     async run(message, args) {
-        Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
-            if (!error && response.statusCode == 200) {
-                // console.log(body) // Print the google web page.
-                var json = 'fail';
-                try {
-                    message.channel.send(body);
-                } catch (ex) {
-                    message.channel.send(ex);
-                }
-            } else {
-                message.channel.send(error)
-            }
-        })
+        // Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
+        //     if (!error && response.statusCode == 200) {
+        //         // console.log(body) // Print the google web page.
+        //         var json = 'fail';
+        //         try {
+        //             json = JSON.parse(body);
+        //             message.channel.send(json[0].teamname);
+        //         } catch (ex) {
+        //             message.channel.send(ex);
+        //         }
+        //     } else {
+        //         message.channel.send(error)
+        //     }
+        // })
+        message.channel.send(args)
         return message.channel.send('WIP')
             .then(msg => console.log('Sent challenges to channel'))
             .catch(console.error);
