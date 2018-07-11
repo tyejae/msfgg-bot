@@ -36,9 +36,8 @@ class LaneCmd extends Commando.Command {
                 if (!error && response.statusCode == 200) {
                     try {
                         let json = JSON.parse(body);
-                        message.guild.members.fetch(json.id).then(mem => {
-                            message.channel.send(mem.displayName);
-                        })
+                        let member = message.guild.members.fetch(json.id);
+                        message.channel.send(member.displayName);
                         
                     } catch (ex) {
                         message.channel.send(ex);
