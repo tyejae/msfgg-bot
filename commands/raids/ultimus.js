@@ -40,7 +40,7 @@ class CharacterCmd extends Commando.Command {
               };
             Request.post(postBody, (error, response, body) => {
                 if (!error && response.statusCode == 200) {
-                    return message.channel.send(body)
+                    return message.channel.send('Assignment set!')
                         .then( msg => { msg.delete(2000); message.delete(2000); } )
                         .catch(console.error);
                 } else {
