@@ -36,13 +36,13 @@ class LaneCmd extends Commando.Command {
                 if (!error && response.statusCode == 200) {
                     try {
                         let json = JSON.parse(body);
-                        let member = message.guild.members.array().forEach(member => {
+                        message.guild.members.array().forEach(member => {
                             if (member.id === id) {
                                 json.forEach(assignment => {
                                     const embed = {
                                         "color": 0,
                                         "author": {
-                                            "name": `${member.displayName} - ${assignment.raid.toUpperCase()}`
+                                            "name": `${assignment.raid.toUpperCase()} V Lane Assignment for ${member.displayName}`
                                         },
                                         "description": `Team: ${assignment.team}\nLane: ${assignment.lane}`
                                     };
