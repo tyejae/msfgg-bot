@@ -19,7 +19,13 @@ class CharacterCmd extends Commando.Command {
         Request('https://run.tyejae.com/services/getAvailableTeams', function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 // console.log(body) // Print the google web page.
-                message.channel.send(response === undefined);
+                var json = 'fail';
+                try {
+                    json = JSON.parse(response);
+                    message.channel.send(json);
+                } catch (ex) {
+                    message.channel.send(ex);
+                }
             } else {
                 message.channel.send(error)
             }
