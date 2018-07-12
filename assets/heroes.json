@@ -327,9 +327,106 @@
         ],
         "ability": []
     },
+    "AntMan": {
+        "Name": "Ant-Man",
+        "Playable": 0,
+        "Description": "A master thief skilled at disabling powerful opponents with the help of his Pym Particle powered suit.",
+        "traits": [
+            "Hero",
+            "Global",
+            "Tech",
+            "Controller",
+            "Avenger"
+        ],
+        "unlockAt": 2,
+        "basic_name": "Scrappy Fighter",
+        "basic": [
+            "Attack primary target for <color=#86e619>100%</color> damage + copy a positive effect from the target to Self +<color=#86e619>70%</color> chance to clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect.",
+            "Attack primary target for <color=#86e619>120%</color> damage + copy a positive effect from the target to Self +<color=#86e619>70%</color> chance to clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect.",
+            "Attack primary target for <color=#86e619>150%</color> damage + copy a positive effect from the target to Self + clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect.",
+            "Attack primary target for <color=#86e619>180%</color> damage + copy a positive effect from the target to Self + clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect.",
+            "Attack primary target for <color=#86e619>210%</color> damage + copy a positive effect from the target to Self + clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect.",
+            "Attack primary target for <color=#86e619>240%</color> damage + copy a positive effect from the target to Self + clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect.",
+            "Attack primary target for <color=#86e619>270%</color> damage + copy a positive effect from the target to Self + clear the copied effect.\\n\\nIf Wasp is an ally, she also gains the copied effect."
+        ],
+        "special_name": "Gum Up the Works",
+        "special": [
+            "Attack primary target for <color=#86e619>100%</color> damage + always apply <color=#fff568>Ability Block</color>.\\n\\nThis attack cannot be dodged or blocked.",
+            "Attack primary target for <color=#86e619>120%</color> damage + always apply <color=#fff568>Ability Block</color>.\\n\\nThis attack cannot be dodged or blocked.",
+            "Attack primary target for <color=#86e619>140%</color> damage + always apply <color=#fff568>Ability Block</color>.\\n\\nThis attack cannot be dodged or blocked.",
+            "Attack primary target for <color=#86e619>160%</color> damage + always apply <color=#fff568>Ability Block</color>.\\n\\nThis attack cannot be dodged or blocked.",
+            "Attack primary target for <color=#86e619>180%</color> damage + always apply <color=#fff568>Ability Block</color>.\\n\\nThis attack cannot be dodged or blocked.",
+            "Attack primary target for <color=#86e619>200%</color> damage + always apply <color=#fff568>Ability Block</color> for <color=#86e619>2</color> turns.\\n\\nThis attack cannot be dodged or blocked.",
+            "Attack primary target for <color=#86e619>220%</color> damage + always apply <color=#fff568>Ability Block</color> for <color=#86e619>2</color> turns.\\n\\nThis attack cannot be dodged or blocked."
+        ],
+        "special_start": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "special_cost": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "passive_name": "Escape Plan",
+        "passive": [
+            "On Spawn, apply <color=#fff568>Evade</color> to Wasp if she is an ally.\\n\\nOn Turn, <color=#86e619>10%</color> chance to gain <color=#fff568>Evade</color>.",
+            "On Spawn, apply <color=#fff568>Evade</color> to Wasp if she is an ally.\\n\\nOn Turn, <color=#86e619>10%</color> chance to gain <color=#fff568>Evade</color> + <color=#86e619>5%</color> chance to gain <color=#fff568>Assist Next</color>.",
+            "On Spawn, apply <color=#fff568>Evade</color> to Wasp if she is an ally.\\n\\nOn Turn, <color=#86e619>10%</color> chance to gain <color=#fff568>Evade</color> + <color=#86e619>10%</color> chance to gain <color=#fff568>Assist Next</color>.",
+            "On Spawn, apply <color=#fff568>Evade</color> to Wasp if she is an ally.\\n\\nOn Turn, <color=#86e619>15%</color> chance to gain <color=#fff568>Evade</color> + <color=#86e619>10%</color> chance to gain <color=#fff568>Assist Next</color>.",
+            "On Spawn, apply <color=#fff568>Evade</color> to Wasp if she is an ally.\\n\\nOn Turn, <color=#86e619>15%</color> chance to gain <color=#fff568>Evade</color> + <color=#86e619>15%</color> chance to gain <color=#fff568>Assist Next</color>."
+        ],
+        "ultimate_name": "Stomp",
+        "ultimate": [
+            "Attack all for <color=#86e619>80%</color> damage + apply <color=#fff568>Slow</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>2</color> additional targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>100%</color> damage to all targets.",
+            "Attack all for <color=#86e619>90%</color> damage + apply <color=#fff568>Slow</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>3</color> additional targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>110%</color> damage to all targets.",
+            "Attack all for <color=#86e619>100%</color> damage + apply <color=#fff568>Slow</color> to primary target + <color=#86e619>75%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>3</color> additional targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>120%</color> damage to all targets.",
+            "Attack all for <color=#86e619>110%</color> damage + Apply <color=#fff568>Slow</color> to all targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>130%</color> damage to all targets",
+            "Attack all for <color=#86e619>120%</color> damage + Apply <color=#fff568>Slow</color> to all targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>140%</color> damage to all targets",
+            "Attack all for <color=#86e619>130%</color> damage + Apply <color=#fff568>Slow</color> to all targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>160%</color> damage to all targets",
+            "Attack all for <color=#86e619>140%</color> damage + Apply <color=#fff568>Slow</color> to all targets.\\n\\nIf Wasp is an ally, deal an additional +<color=#86e619>170%</color> damage to all targets"
+        ],
+        "ultimate_start": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "ultimate_cost": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "procs": [
+            "AbilityBlock",
+            "Evade",
+            "AssistNow",
+            "Slow"
+        ],
+        "ability": [
+            "ClearPositive",
+            "CopyPositive"
+        ]
+    },
     "BaronMordo": {
         "Name": "Mordo",
-        "Playable": 1,
+        "Playable": 0,
         "Description": "A powerful sorcerer who weakens his enemies with forbidden magic.",
         "traits": [
             "Villain",
@@ -351,13 +448,13 @@
         ],
         "special_name": "Mesmerize",
         "special": [
-            "Apply <color=#86e619>1</color> <color=#fff568>Blind</color> to primary target.",
-            "Apply <color=#86e619>1</color> <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>2</color> additional targets.",
-            "Apply <color=#86e619>1</color> <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>2</color> additional targets. <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>1</color> target.",
-            "Apply <color=#86e619>1</color> <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>3</color> additional targets. <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>1</color> target.",
-            "<color=#86e619>50%</color> chance to apply <color=#fff568>Stun</color> to primary target. If target is not stunned, apply <color=#fff568>Blind</color> to target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>3</color> additional targets. <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>1</color> target.",
-            "<color=#86e619>50%</color> chance to apply <color=#fff568>Stun</color> to primary target. If target is not stunned, apply <color=#fff568>Blind</color> to target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>3</color> additional targets. <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>2</color> targets.",
-            "Apply <color=#fff568>Stun</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>3</color> additional targets. <color=#86e619>50%</color> chance to apply <color=#fff568>Slow</color> to <color=#86e619>2</color> targets."
+            "Apply <color=#fff568>Blind</color> to primary target.",
+            "Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to <color=#fff568>Blind</color> up to <color=#86e619>2</color> targets.",
+            "Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> up to <color=#86e619>2</color> targets. <color=#86e619>50%</color> chance to <color=#fff568>Slow</color> up to <color=#86e619>1</color> targets.",
+            "Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> up to <color=#86e619>3</color> targets. <color=#86e619>50%</color> chance to <color=#fff568>Slow</color> up to <color=#86e619>1</color> targets.",
+            "<color=#86e619>50%</color> chance to <color=#fff568>Stun</color> primary target. If target is not stunned, <color=#fff568>Blind</color> target + <color=#86e619>50%</color> chance to <color=#fff568>Blind</color> up to <color=#86e619>3</color> targets. <color=#86e619>50%</color> chance to <color=#fff568>Slow</color> up to <color=#86e619>1</color> targets.",
+            "<color=#86e619>50%</color> chance to <color=#fff568>Stun</color> primary target. If target is not stunned, <color=#fff568>Blind</color> target + <color=#86e619>50%</color> chance to <color=#fff568>Blind</color> up to <color=#86e619>3</color> targets. <color=#86e619>50%</color> chance to <color=#fff568>Slow</color> up to <color=#86e619>2</color> targets.",
+            "<color=#fff568>Stun</color> primary target + <color=#86e619>50%</color> chance to <color=#fff568>Blind</color> up to <color=#86e619>3</color> targets. <color=#86e619>50%</color> chance to <color=#fff568>Slow</color> up to <color=#86e619>2</color> targets."
         ],
         "special_start": [
             4,
@@ -485,13 +582,13 @@
         ],
         "ultimate_name": "Panther Rush",
         "ultimate": [
-            "Attack primary target for <color=#86e619>110%</color> damage. Chain up to <color=#86e619>2</color> targets for <color=#86e619>80%</color> damage. All attacks have +<color=#86e619>10%</color> Piercing and +<color=#86e619>5%</color> Extra Crit chance.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>110%</color> damage instead, then lose <color=#fff568>Charged</color>. ",
-            "Attack primary target for <color=#86e619>140%</color> damage. Chain up to <color=#86e619>2</color> targets for <color=#86e619>100%</color> damage. All attacks have +<color=#86e619>10%</color> Piercing and +<color=#86e619>5%</color> Extra Crit chance.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>130%</color> damage instead, then lose <color=#fff568>Charged</color>. ",
-            "Attack primary target for <color=#86e619>170%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> targets for <color=#86e619>110%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>140</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>20%</color> Piercing and +<color=#86e619>10%</color> Extra Crit chance.",
-            "Attack primary target for <color=#86e619>200%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> targets for <color=#86e619>140%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>180</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>20%</color> Piercing and +<color=#86e619>10%</color> Extra Crit chance.",
-            "Attack primary target for <color=#86e619>220%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> targets for <color=#86e619>150%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>190</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>30%</color> Piercing and +<color=#86e619>15%</color> Extra Crit chance.",
-            "Attack primary target for <color=#86e619>250%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>3</color> targets for <color=#86e619>170%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>220</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>30%</color> Piercing and +<color=#86e619>15%</color> Extra Crit chance.",
-            "Attack primary target for <color=#86e619>280%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>3</color> targets for <color=#86e619>200%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>250</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>30%</color> Piercing and +<color=#86e619>20%</color> Extra Crit chance."
+            "Attack primary target for <color=#86e619>110%</color> damage. Chain up to <color=#86e619>2</color> targets for <color=#86e619>80%</color> damage. All attacks have +<color=#86e619>10%</color> Piercing and +<color=#86e619>5%</color> Extra Crit chance. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>110%</color> damage instead, then lose <color=#fff568>Charged</color>. ",
+            "Attack primary target for <color=#86e619>140%</color> damage. Chain up to <color=#86e619>2</color> targets for <color=#86e619>100%</color> damage. All attacks have +<color=#86e619>10%</color> Piercing and +<color=#86e619>5%</color> Extra Crit chance. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>130%</color> damage instead, then lose <color=#fff568>Charged</color>. ",
+            "Attack primary target for <color=#86e619>170%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> targets for <color=#86e619>110%</color> damage. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>140</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>20%</color> Piercing and +<color=#86e619>10%</color> Extra Crit chance.",
+            "Attack primary target for <color=#86e619>200%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> targets for <color=#86e619>140%</color> damage. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>180</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>20%</color> Piercing and +<color=#86e619>10%</color> Extra Crit chance.",
+            "Attack primary target for <color=#86e619>220%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> targets for <color=#86e619>150%</color> damage. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>190</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>30%</color> Piercing and +<color=#86e619>15%</color> Extra Crit chance.",
+            "Attack primary target for <color=#86e619>250%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>3</color> targets for <color=#86e619>170%</color> damage. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>220</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>30%</color> Piercing and +<color=#86e619>15%</color> Extra Crit chance.",
+            "Attack primary target for <color=#86e619>280%</color> damage. Chain to <color=#86e619>1</color>-<color=#86e619>3</color> targets for <color=#86e619>200%</color> damage. Counterattack breaks this Chain.\\n\\nIf <color=#fff568>Charged</color>, attack all enemies for <color=#86e619>250</color>% damage instead, then lose <color=#fff568>Charged</color>. All attacks have +<color=#86e619>30%</color> Piercing and +<color=#86e619>20%</color> Extra Crit chance."
         ],
         "ultimate_start": [
             6,
@@ -541,18 +638,18 @@
             "Attack primary target for <color=#86e619>120%</color> damage. During <color=#fff568>Stealth</color>, <color=#86e619>70%</color> chance to copy all positive effects on primary target + <color=#86e619>50%</color> chance to clear each copied positive effect.",
             "Attack primary target for <color=#86e619>190%</color> damage. During <color=#fff568>Stealth</color>, <color=#86e619>70%</color> chance to copy all positive effects on primary target + <color=#86e619>50%</color> chance to clear each copied positive effect.",
             "Attack primary target for <color=#86e619>190%</color> damage. During <color=#fff568>Stealth</color>, <color=#86e619>70%</color> chance to copy all positive effects on primary target + clear each copied positive effect.",
-            "Attack primary target for <color=#86e619>190%</color> damage. During <color=#fff568>Stealth</color>, copy all positive effects on primary target + clear each copied positive effect.",
-            "Attack primary target for <color=#86e619>250%</color> damage. During <color=#fff568>Stealth</color>, copy all positive effects on primary target + clear each copied positive effect."
+            "Attack primary target for <color=#86e619>190%</color> damage. During <color=#fff568>Stealth</color>, copy and clear all positive effects on primary target.",
+            "Attack primary target for <color=#86e619>250%</color> damage. During <color=#fff568>Stealth</color>, copy and clear all positive effects on primary target."
         ],
         "special_name": "Camouflage Tech",
         "special": [
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. <color=#86e619>30%</color> chance to grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies + <color=#86e619>1</color> additional ally.",
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. Grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>30%</color> chance to apply <color=#fff568>Speed Up</color> to <color=#86e619>2</color> additional allies.",
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. Grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>30%</color> chance to apply <color=#fff568>Speed Up</color> to <color=#86e619>3</color> additional allies.",
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. Grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>30%</color> chance to apply <color=#fff568>Speed Up</color> to <color=#86e619>3</color> additional allies.",
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. Grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>60%</color> chance to apply <color=#fff568>Speed Up</color> to <color=#86e619>3</color> additional allies.",
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. Grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies for <color=#86e619>2</color> turns. <color=#86e619>60%</color> chance to grant <color=#fff568>Speed Up</color> to all additional allies for <color=#86e619>2</color> turns.",
-            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from self. Grant <color=#fff568>Speed Up</color> to all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies for <color=#86e619>2</color> turns. <color=#86e619>80%</color> chance to grant <color=#fff568>Speed Up</color> to all additional allies for <color=#86e619>2</color> turns."
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. <color=#86e619>30%</color> chance to apply <color=#fff568>Speed Up</color> to Self  and each <color=#fff568>S.H.I.E.L.D.</color> or <color=#fff568>AVENGER</color> ally. <color=#86e619>30%</color> chance to <color=#fff568>Speed Up</color> <color=#86e619>1</color> additional ally.",
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. Apply <color=#fff568>Speed Up</color> to Self and all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>30%</color> chance to <color=#fff568>Speed Up</color> up to <color=#86e619>2</color> additional allies.",
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. Apply <color=#fff568>Speed Up</color> to Self and all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>30%</color> chance to <color=#fff568>Speed Up</color> up to <color=#86e619>3</color> additional allies.",
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. Apply <color=#fff568>Speed Up</color> to Self and all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>30%</color> chance to <color=#fff568>Speed Up</color> up to <color=#86e619>3</color> additional allies.",
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. Apply <color=#fff568>Speed Up</color> to Self and all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies. <color=#86e619>60%</color> chance to <color=#fff568>Speed Up</color> up to <color=#86e619>3</color> additional allies.",
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. Apply <color=#fff568>Speed Up</color> to Self and all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies for <color=#86e619>2</color> turns. <color=#86e619>60%</color> chance to apply <color=#fff568>Speed Up</color> to all allies for <color=#86e619>2</color> turns.",
+            "Gain <color=#fff568>Stealth</color> for <color=#86e619>2</color> turns + clear all negative effects from Self. Apply <color=#fff568>Speed Up</color> to Self and all <color=#fff568>S.H.I.E.L.D.</color> and <color=#fff568>AVENGER</color> allies for <color=#86e619>2</color> turns. <color=#86e619>80%</color> chance to apply <color=#fff568>Speed Up</color> to all allies for <color=#86e619>2</color> turns."
         ],
         "special_start": [
             4,
@@ -575,20 +672,20 @@
         "passive_name": "Saboteur",
         "passive": [
             "Gain +<color=#86e619>5%</color> Speed.",
-            "Gain +<color=#86e619>5%</color> Speed. On <color=#fff568>Stealth</color>, <color=#86e619>50%</color> chance to gain <color=#fff568>Offense Up</color>.",
-            "Gain +<color=#86e619>10%</color> Speed. On <color=#fff568>Stealth</color>, <color=#86e619>50%</color> chance to gain <color=#fff568>Offense Up</color>.",
+            "Gain +<color=#86e619>5%</color> Speed.\\n\\nOn <color=#fff568>Stealth</color>, <color=#86e619>50%</color> chance to gain <color=#fff568>Offense Up</color>.",
+            "Gain +<color=#86e619>10%</color> Speed.\\n\\nOn <color=#fff568>Stealth</color>, <color=#86e619>50%</color> chance to gain <color=#fff568>Offense Up</color>.",
             "Gain +<color=#86e619>10%</color> Speed. When in <color=#fff568>Stealth</color>, gain <color=#fff568>Offense Up</color>.",
             "Gain +<color=#86e619>15%</color> Speed. When in <color=#fff568>Stealth</color>, gain <color=#fff568>Offense Up</color>."
         ],
         "ultimate_name": "Widow's Bite",
         "ultimate": [
-            "Attack primary target for <color=#86e619>110%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage + apply <color=#fff568>Bleed</color>.",
-            "Attack primary target for <color=#86e619>170%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage + apply <color=#fff568>Bleed</color>.",
-            "Attack primary target for <color=#86e619>170%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>120%</color> damage + apply <color=#fff568>Bleed</color>.",
-            "Attack primary target for <color=#86e619>230%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>170%</color> damage + apply <color=#fff568>Bleed</color>.",
-            "Attack primary target for <color=#86e619>230%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>170%</color> damage + apply <color=#fff568>Bleed</color> for <color=#86e619>2</color> turns.",
-            "Attack primary target for <color=#86e619>230%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>60%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>170%</color> damage + apply <color=#86e619>2</color> <color=#fff568>Bleed</color> for <color=#86e619>2</color> turns.",
-            "Attack primary target for <color=#86e619>290%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>60%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>220%</color> damage + apply <color=#86e619>2</color> <color=#fff568>Bleed</color> for <color=#86e619>2</color> turns."
+            "Attack primary target for <color=#86e619>110%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage + apply <color=#fff568>Bleed</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage + apply <color=#fff568>Bleed</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>120%</color> damage + apply <color=#fff568>Bleed</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>230%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>170%</color> damage + apply <color=#fff568>Bleed</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>230%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>170%</color> damage + apply <color=#fff568>Bleed</color> for <color=#86e619>2</color> turns.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>230%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>60%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>170%</color> damage + apply <color=#86e619>2</color> <color=#fff568>Bleed</color> for <color=#86e619>2</color> turns.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>290%</color> damage + apply <color=#fff568>Stun</color>. <color=#86e619>60%</color> chance to Chain up to <color=#86e619>3</color> adjacent targets for <color=#86e619>220%</color> damage + apply <color=#86e619>2</color> <color=#fff568>Bleed</color> for <color=#86e619>2</color> turns.\\n\\nCounterattack breaks this Chain."
         ],
         "ultimate_start": [
             1,
@@ -611,6 +708,7 @@
         "procs": [
             "Stealth",
             "SpeedUp",
+            "OffenseUp",
             "Stun",
             "DoT"
         ],
@@ -712,7 +810,7 @@
     "Cable": {
         "Name": "Cable",
         "Playable": 0,
-        "Description": "A ruthless mercenary who takes down single targets with focused damage and perfect accuracy.",
+        "Description": "A time-traveler from the future who can manipulate turn order and charge up attacks to blast his enemies. ",
         "traits": [
             "Hero",
             "Cosmic",
@@ -797,7 +895,7 @@
         ],
         "procs": [
             "Charged",
-            "Charged"
+            "Counter"
         ],
         "ability": [
             "FillSpeed",
@@ -821,11 +919,11 @@
         "basic": [
             "Attack primary target for <color=#86e619>100%</color> damage.",
             "Attack primary target for <color=#86e619>120%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target for <color=#86e619>90%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>180%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>200%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>220%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. Gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn."
+            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target for <color=#86e619>90%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>180%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>220%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. Gain <color=#fff568>Defense Up</color> for <color=#86e619>1</color> turn.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Inspire",
         "special": [
@@ -865,13 +963,13 @@
         ],
         "ultimate_name": "Shield Throw",
         "ultimate": [
-            "Attack primary target for <color=#86e619>180%</color> damage, clearing <color=#86e619>1</color> positive effect. Chain up to <color=#86e619>1</color> additional target for <color=#86e619>130%</color> damage, clearing <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>200%</color> damage, clearing <color=#86e619>1</color> positive effect. Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>150%</color> damage, clearing <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>220%</color> damage, clearing <color=#86e619>1</color> positive effect. Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>160%</color> damage, clearing <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>240%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>180%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects.",
-            "Attack primary target for <color=#86e619>260%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>200%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects.",
-            "Attack primary target for <color=#86e619>280%</color> damage, clearing <color=#86e619>2</color>positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>210%</color> damage, clearing <color=#86e619>2</color> positive effects.",
-            "Attack primary target for <color=#86e619>300%</color> damage, clearing <color=#86e619>2</color>positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>230%</color> damage, clearing <color=#86e619>2</color> positive effects."
+            "Attack primary target for <color=#86e619>180%</color> damage, clearing <color=#86e619>1</color> positive effect. Chain up to <color=#86e619>1</color> additional target for <color=#86e619>130%</color> damage, clearing <color=#86e619>1</color> positive effect.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage, clearing <color=#86e619>1</color> positive effect. Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>150%</color> damage, clearing <color=#86e619>1</color> positive effect.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>220%</color> damage, clearing <color=#86e619>1</color> positive effect. Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>160%</color> damage, clearing <color=#86e619>1</color> positive effect.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>240%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>180%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>260%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>200%</color> damage, clearing <color=#86e619>1</color>-<color=#86e619>2</color> positive effects.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>280%</color> damage, clearing <color=#86e619>2</color> positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>210%</color> damage, clearing <color=#86e619>2</color> positive effects.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>300%</color> damage, clearing <color=#86e619>2</color> positive effects. Chain to <color=#86e619>1</color>-<color=#86e619>2</color> additional targets for <color=#86e619>230%</color> damage, clearing <color=#86e619>2</color> positive effects.\\n\\nDodge breaks this Chain."
         ],
         "ultimate_start": [
             5,
@@ -915,12 +1013,12 @@
         "basic_name": "Piston Punch",
         "basic": [
             "Attack primary target for <color=#86e619>90%</color> damage. <color=#86e619>40%</color> chance of a Bonus attack for <color=#86e619>65%</color> damage.",
-            "Attack primary target for <color=#86e619>90%</color> damage. <color=#86e619>40%</color> chance of a Bonus attack for <color=#86e619>65%</color> damage and apply <color=#fff568>Offense Down</color>.",
+            "Attack primary target for <color=#86e619>115%</color> damage. <color=#86e619>40%</color> chance of a Bonus attack for <color=#86e619>65%</color> damage and apply <color=#fff568>Offense Down</color>.",
             "Attack primary target for <color=#86e619>125%</color> damage. <color=#86e619>40%</color> chance of a Bonus attack for <color=#86e619>95%</color> damage and apply <color=#fff568>Offense Down</color>.",
-            "Attack primary target for <color=#86e619>125%</color> damage. <color=#86e619>60%</color> chance of a Bonus attack for <color=#86e619>95%</color> damage and apply <color=#fff568>Offense Down</color>.",
+            "Attack primary target for <color=#86e619>150%</color> damage. <color=#86e619>60%</color> chance of a Bonus attack for <color=#86e619>95%</color> damage and apply <color=#fff568>Offense Down</color>.",
             "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>60%</color> chance of a Bonus attack for <color=#86e619>125%</color> damage and apply <color=#fff568>Offense Down</color>.",
-            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>75%</color> chance of a Bonus attack for <color=#86e619>125%</color> damage and apply <color=#fff568>Offense Down</color>.",
-            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>75%</color> chance of a Bonus attack for <color=#86e619>150%</color> damage and apply <color=#fff568>Offense Down</color>."
+            "Attack primary target for <color=#86e619>175%</color> damage. <color=#86e619>75%</color> chance of a Bonus attack for <color=#86e619>125%</color> damage and apply <color=#fff568>Offense Down</color>.",
+            "Attack primary target for <color=#86e619>200%</color> damage. <color=#86e619>75%</color> chance of a Bonus attack for <color=#86e619>150%</color> damage and apply <color=#fff568>Offense Down</color>."
         ],
         "special_name": "Wrath",
         "special": [
@@ -962,10 +1060,10 @@
         "ultimate": [
             "Gain <color=#fff568>Deathproof</color>, then explode for <color=#86e619>200%</color> damage to self and all enemies.",
             "Gain <color=#fff568>Deathproof</color>, then explode for <color=#86e619>270%</color> damage to self and all enemies.",
-            "Gain <color=#fff568>Deathproof</color>, then explode for <color=#86e619>350%</color> damage to self and all enemies.",
-            "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>350%</color> damage to self and all enemies.",
-            "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>430%</color> damage to self and all enemies.",
-            "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>430%</color> damage to self and all enemies.",
+            "Gain <color=#fff568>Deathproof</color>, then explode for <color=#86e619>340%</color> damage to self and all enemies.",
+            "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>370%</color> damage to self and all enemies.",
+            "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>440%</color> damage to self and all enemies.",
+            "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>440%</color> damage to self and all enemies.",
             "Gain <color=#86e619>2</color> <color=#fff568>Deathproof</color>, then explode for <color=#86e619>510%</color> damage to self and all enemies."
         ],
         "ultimate_start": [
@@ -1019,13 +1117,13 @@
         ],
         "special_name": "Throw Baton",
         "special": [
-            "Attack primary target for <color=#86e619>80%</color> damage. <color=#86e619>10%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>60%</color> damage. Gain <color=#fff568>Counter</color>.",
-            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>10%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>60%</color> damage. Gain <color=#fff568>Counter</color>.",
-            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>20%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>100%</color> damage. Gain <color=#fff568>Counter</color>.",
-            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>20%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>100%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.",
-            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>20%</color> chance to Chain to <color=#86e619>2</color> targets for <color=#86e619>100%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.",
-            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to <color=#86e619>2</color> targets for <color=#86e619>150%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.",
-            "Attack primary target for <color=#86e619>180%</color> damage. <color=#86e619>30%</color> chance to Chain to <color=#86e619>2</color> targets for <color=#86e619>150%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>."
+            "Attack primary target for <color=#86e619>80%</color> damage. <color=#86e619>10%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>60%</color> damage. Gain <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>10%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>60%</color> damage. Gain <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>20%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>100%</color> damage. Gain <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>20%</color> chance to Chain to <color=#86e619>1</color> target for <color=#86e619>100%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> damage. <color=#86e619>20%</color> chance to Chain to <color=#86e619>2</color> targets for <color=#86e619>100%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to <color=#86e619>2</color> targets for <color=#86e619>150%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>180%</color> damage. <color=#86e619>30%</color> chance to Chain to <color=#86e619>2</color> targets for <color=#86e619>150%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Counter</color>.\\n\\nDodge breaks this Chain."
         ],
         "special_start": [
             4,
@@ -1055,13 +1153,13 @@
         ],
         "ultimate_name": "Brawl",
         "ultimate": [
-            "Attack primary target for <color=#86e619>170%</color> damage. <color=#86e619>40%</color> chance to Chain to up to <color=#86e619>2</color> additional targets, dealing <color=#86e619>130%</color> damage.",
-            "Attack primary target for <color=#86e619>250%</color> damage. <color=#86e619>40%</color> chance to Chain to up to <color=#86e619>2</color> additional targets, dealing <color=#86e619>190%</color> damage.",
-            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>40%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>190%</color> damage.",
-            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>190%</color> damage.",
-            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>250%</color> damage.",
-            "Attack primary target for <color=#86e619>400%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>250%</color> damage.",
-            "Attack primary target for <color=#86e619>400%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>6</color> additional targets, dealing <color=#86e619>300%</color> damage."
+            "Attack primary target for <color=#86e619>170%</color> damage. <color=#86e619>40%</color> chance to Chain to up to <color=#86e619>2</color> additional targets, dealing <color=#86e619>130%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>250%</color> damage. <color=#86e619>40%</color> chance to Chain to up to <color=#86e619>2</color> additional targets, dealing <color=#86e619>190%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>40%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>190%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>190%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>250%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>400%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>4</color> additional targets, dealing <color=#86e619>250%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>400%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>6</color> additional targets, dealing <color=#86e619>300%</color> damage.\\n\\nCounterattack breaks this Chain."
         ],
         "ultimate_start": [
             5,
@@ -1089,7 +1187,7 @@
     "Deadpool": {
         "Name": "Deadpool",
         "Playable": 0,
-        "Description": "A tough bruiser who delivers bonus attacks, chain attacks, and counterattacks.",
+        "Description": "A magical unicorn who specializes in stab-shooting vulnerable targets.",
         "traits": [
             "Hero",
             "Global",
@@ -1147,13 +1245,13 @@
         ],
         "ultimate_name": "Hack 'n' Slash",
         "ultimate": [
-            "Attack primary target for <color=#86e619>120%</color> damage + Rebound Chain <color=#86e619>1</color>-<color=#86e619>3</color> additional targets for <color=#86e619>100%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.",
-            "Attack primary target for <color=#86e619>140%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>3</color> additional targets for <color=#86e619>100%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.",
-            "Attack primary target for <color=#86e619>160%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>3</color> additional targets for <color=#86e619>130%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.",
-            "Attack primary target for <color=#86e619>180%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>4</color> additional targets for <color=#86e619>130%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.",
-            "Attack primary target for <color=#86e619>210%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>4</color> additional targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.",
-            "Attack primary target for <color=#86e619>230%</color> damage + Rebound Chain <color=#86e619>3</color>-<color=#86e619>4</color> additional targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.",
-            "Attack primary target for <color=#86e619>260%</color> damage + Rebound Chain <color=#86e619>3</color>-<color=#86e619>4</color> additional targets for <color=#86e619>200%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets."
+            "Attack primary target for <color=#86e619>120%</color> damage + Rebound Chain <color=#86e619>1</color>-<color=#86e619>3</color> additional targets for <color=#86e619>100%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>140%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>3</color> additional targets for <color=#86e619>100%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>3</color> additional targets for <color=#86e619>130%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>180%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>4</color> additional targets for <color=#86e619>130%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>210%</color> damage + Rebound Chain <color=#86e619>2</color>-<color=#86e619>4</color> additional targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>230%</color> damage + Rebound Chain <color=#86e619>3</color>-<color=#86e619>4</color> additional targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>260%</color> damage + Rebound Chain <color=#86e619>3</color>-<color=#86e619>4</color> additional targets for <color=#86e619>200%</color> damage. Apply <color=#fff568>Bleed</color> to <color=#fff568>MINION</color> targets.\\n\\nCounterattack breaks this Chain."
         ],
         "ultimate_start": [
             6,
@@ -1337,13 +1435,13 @@
         ],
         "ultimate_name": "Good Fighting",
         "ultimate": [
-            "Attack primary target for <color=#86e619>140%</color> damage and <color=#86e619>10%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>100%</color> damage and <color=#86e619>10%</color> Drain.",
-            "Attack primary target for <color=#86e619>160%</color> damage and <color=#86e619>20%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>120%</color> damage and <color=#86e619>20%</color> Drain.",
-            "Attack primary target for <color=#86e619>190%</color> damage and <color=#86e619>20%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>150%</color> damage and <color=#86e619>20%</color> Drain.",
-            "Attack primary target for <color=#86e619>220%</color> damage and <color=#86e619>30%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>180%</color> damage and <color=#86e619>30%</color> Drain.",
-            "Attack primary target for <color=#86e619>240%</color> damage and <color=#86e619>40%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>5</color> adjacent targets for <color=#86e619>180%</color> damage and <color=#86e619>40%</color> Drain.",
-            "Attack primary target for <color=#86e619>270%</color> damage and <color=#86e619>40%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>5</color> adjacent targets for <color=#86e619>210%</color> damage and <color=#86e619>40%</color> Drain.",
-            "Attack primary target for <color=#86e619>300%</color> damage and <color=#86e619>50%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>5</color> adjacent targets for <color=#86e619>240%</color> damage and <color=#86e619>50%</color> Drain."
+            "Attack primary target for <color=#86e619>140%</color> damage and <color=#86e619>10%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>100%</color> damage and <color=#86e619>10%</color> Drain.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage and <color=#86e619>20%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>120%</color> damage and <color=#86e619>20%</color> Drain.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>190%</color> damage and <color=#86e619>20%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>150%</color> damage and <color=#86e619>20%</color> Drain.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>220%</color> damage and <color=#86e619>30%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>4</color> adjacent targets for <color=#86e619>180%</color> damage and <color=#86e619>30%</color> Drain.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>240%</color> damage and <color=#86e619>40%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>5</color> adjacent targets for <color=#86e619>180%</color> damage and <color=#86e619>40%</color> Drain.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>270%</color> damage and <color=#86e619>40%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>5</color> adjacent targets for <color=#86e619>210%</color> damage and <color=#86e619>40%</color> Drain.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>300%</color> damage and <color=#86e619>50%</color> Drain. Chain to <color=#86e619>1</color>-<color=#86e619>5</color> adjacent targets for <color=#86e619>240%</color> damage and <color=#86e619>50%</color> Drain.\\n\\nCounterattack breaks this Chain."
         ],
         "ultimate_start": [
             3,
@@ -1461,7 +1559,8 @@
         ],
         "procs": [
             "DoT",
-            "Stealth"
+            "Stealth",
+            "Evade"
         ],
         "ability": [
             "ClearPositive",
@@ -1492,13 +1591,13 @@
         ],
         "special_name": "Ruthless Blade",
         "special": [
-            "Attack primary target for <color=#86e619>80%</color> damage. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>60%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.",
-            "Attack primary target for <color=#86e619>120%</color> damage. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>90%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.",
-            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.",
-            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.",
-            "Attack primary target for <color=#86e619>190%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>150%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.",
-            "Attack primary target for <color=#86e619>230%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>180%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.",
-            "Attack primary target for <color=#86e619>270%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>200%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill."
+            "Attack primary target for <color=#86e619>80%</color> damage. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>60%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>120%</color> damage. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>90%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>190%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>150%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>230%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>180%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>270%</color> damage. <color=#86e619>50%</color> chance to Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>200%</color> damage. Fill Speed Bar by <color=#86e619>100%</color> on Kill.\\n\\nCounterattack breaks this Chain."
         ],
         "special_start": [
             3,
@@ -1563,7 +1662,7 @@
     },
     "Groot": {
         "Name": "Groot",
-        "Playable": 1,
+        "Playable": 0,
         "Description": "A resilient healer who defends allies and has a chance to revive. Protective of Rocket Raccoon.",
         "traits": [
             "Hero",
@@ -1648,7 +1747,8 @@
             4
         ],
         "procs": [
-            "Deathproof"
+            "Deathproof",
+            "DefenseUp"
         ],
         "ability": [
             "ClearNegative",
@@ -1909,7 +2009,8 @@
             "On turn, <color=#86e619>25%</color> chance to gain <color=#fff568>Stealth</color> for the next <color=#86e619>2</color> turn(s)."
         ],
         "procs": [
-            "DefenseUp"
+            "DefenseUp",
+            "Stealth"
         ],
         "ability": [
             "Drain"
@@ -1977,8 +2078,7 @@
         ],
         "procs": [
             "Stealth",
-            "Evade",
-            "Stealth"
+            "Evade"
         ],
         "ability": []
     },
@@ -2007,13 +2107,13 @@
         ],
         "special_name": "Concussion Arrow",
         "special": [
-            "Attack primary and adjacent targets for <color=#86e619>100%</color> damage. Clear <color=#86e619>1</color> positive effect from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-10%</color>.",
-            "Attack primary and adjacent targets for <color=#86e619>100%</color> damage. Clear <color=#86e619>1</color>-<color=#86e619>2</color> positive effects from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-10%</color>.",
-            "Attack primary and adjacent targets for <color=#86e619>110%</color> damage. Clear <color=#86e619>1</color>-<color=#86e619>2</color> positive effects from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-15%</color>.",
-            "Attack primary and adjacent targets for <color=#86e619>120%</color> damage. Clear <color=#86e619>2</color> positive effects from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-15%</color>.",
-            "Attack primary and adjacent targets for <color=#86e619>130%</color> damage. Clear <color=#86e619>3</color> positive effects from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-15%</color>.",
-            "Attack primary and adjacent targets for <color=#86e619>140%</color> damage. Clear <color=#86e619>3</color> positive effects from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-20%</color>.",
-            "Attack primary and adjacent targets for <color=#86e619>150%</color> damage. Clear all positive effects from primary and adjacent targets + reduce Speed Bar of primary target by <color=#86e619>-20%</color>."
+            "Attack primary target for <color=#86e619>100%</color> damage + change Speed Bar by <color=#86e619>-10%</color>. Clear <color=#86e619>1</color> positive effect from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged.",
+            "Attack primary target for <color=#86e619>100%</color> damage + change Speed Bar by <color=#86e619>-10%</color>. Clear <color=#86e619>1</color>-<color=#86e619>2</color> positive effects from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged.",
+            "Attack primary target for <color=#86e619>110%</color> damage + change Speed Bar by <color=#86e619>-15%</color>. Clear <color=#86e619>1</color>-<color=#86e619>2</color> positive effects from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged.",
+            "Attack primary target for <color=#86e619>120%</color> damage + change Speed Bar by <color=#86e619>-15%</color>. Clear <color=#86e619>2</color> positive effects from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged.",
+            "Attack primary target for <color=#86e619>130%</color> damage + change Speed Bar by <color=#86e619>-15%</color>. Clear <color=#86e619>3</color> positive effects from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged.",
+            "Attack primary target for <color=#86e619>140%</color> damage + change Speed Bar by <color=#86e619>-20%</color>. Clear <color=#86e619>3</color> positive effects from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged.",
+            "Attack primary target for <color=#86e619>150%</color> damage + change Speed Bar by <color=#86e619>-20%</color>. Clear all positive effects from primary and adjacent targets.\\n\\nThis attack cannot miss and cannot be dodged."
         ],
         "special_start": [
             4,
@@ -2048,8 +2148,8 @@
             "Attack all enemies for <color=#86e619>90%</color> damage. Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>2</color> additional targets. This attack is Unavoidable.",
             "Attack all enemies for <color=#86e619>90%</color> damage. Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>3</color> additional targets. This attack is Unavoidable.",
             "Attack all enemies for <color=#86e619>140%</color> damage. Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to <color=#86e619>3</color> additional targets. This attack is Unavoidable.",
-            "Attack all enemies for <color=#86e619>140%</color> damage. Apply <color=#fff568>Blind</color> to all targets. This attack is Unavoidable.",
-            "Attack all enemies for <color=#86e619>190%</color> damage. Apply <color=#fff568>Blind</color> to all targets. This attack is Unavoidable."
+            "Attack all enemies for <color=#86e619>140%</color> damage. Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to all remaining targets. This attack is Unavoidable.",
+            "Attack all enemies for <color=#86e619>190%</color> damage. Apply <color=#fff568>Blind</color> to primary target + <color=#86e619>50%</color> chance to apply <color=#fff568>Blind</color> to all remaining targets. This attack is Unavoidable."
         ],
         "ultimate_start": [
             1,
@@ -2102,12 +2202,12 @@
         "special_name": "Rage",
         "special": [
             "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health.",
-            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + Clear <color=#86e619>1</color> negative effect from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
-            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + Clear <color=#86e619>2</color> negative effects from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
-            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + Clear <color=#86e619>2</color> negative effects from self. Heal for <color=#86e619>2000</color> Health. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
-            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + Clear <color=#86e619>3</color> negative effects from self. Heal for <color=#86e619>2000</color> Health. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
-            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + Clear <color=#86e619>3</color> negative effects from self. Heal for <color=#86e619>7000</color> Health. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
-            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + Clear all negative effects from self. Heal for <color=#86e619>7000</color> Health. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. "
+            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + clear <color=#86e619>1</color> negative effect from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
+            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + clear <color=#86e619>2</color> negative effects from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>10%</color> of Max Health. ",
+            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + clear <color=#86e619>2</color> negative effects from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>2000</color> Health +<color=#86e619>10%</color> of Max Health. ",
+            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + clear <color=#86e619>3</color> negative effects from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>2000</color> Health +<color=#86e619>10%</color> of Max Health. ",
+            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + clear <color=#86e619>3</color> negative effects from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>7000</color> Health +<color=#86e619>10%</color> of Max Health. ",
+            "<color=#fff568>Taunt</color> for <color=#86e619>1</color> turn + clear all negative effects from self. If this character's Health is below <color=#86e619>50%</color>, Heal for <color=#86e619>7000</color> Health +<color=#86e619>10%</color> of Max Health. "
         ],
         "special_start": [
             3,
@@ -2165,7 +2265,9 @@
         ],
         "procs": [
             "OffenseUp",
-            "Taunt"
+            "Taunt",
+            "SpeedUp",
+            "Deathproof"
         ],
         "ability": [
             "ClearNegative"
@@ -2423,7 +2525,10 @@
         ],
         "procs": [
             "HealBlock",
-            "Deathproof"
+            "Deathproof",
+            "OffenseUp",
+            "DefenseUp",
+            "SpeedUp"
         ],
         "ability": []
     },
@@ -2508,13 +2613,13 @@
         "unlockAt": 2,
         "basic_name": "Martial Arts",
         "basic": [
-            "Attack primary target for <color=#86e619>90%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target(s) for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target(s) for <color=#86e619>100%</color> damage.",
-            "Attack primary target for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>2</color> adjacent target(s) for <color=#86e619>100%</color> damage.",
-            "Attack primary target for <color=#86e619>170%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>2</color> adjacent target(s) for <color=#86e619>130%</color> damage.",
-            "Attack primary target for <color=#86e619>170%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>3</color> adjacent target(s) for <color=#86e619>130%</color> damage.",
-            "Attack primary target for <color=#86e619>210%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>3</color> adjacent target(s) for <color=#86e619>160%</color> damage.",
-            "Attack primary target for <color=#86e619>250%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>3</color> adjacent target(s) for <color=#86e619>200%</color> damage."
+            "Attack primary target for <color=#86e619>90%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target(s) for <color=#86e619>70%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> adjacent target(s) for <color=#86e619>100%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>2</color> adjacent target(s) for <color=#86e619>100%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>2</color> adjacent target(s) for <color=#86e619>130%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>3</color> adjacent target(s) for <color=#86e619>130%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>210%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>3</color> adjacent target(s) for <color=#86e619>160%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>250%</color> damage. <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>3</color> adjacent target(s) for <color=#86e619>200%</color> damage.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Inner Peace",
         "special": [
@@ -2601,13 +2706,13 @@
         "unlockAt": 5,
         "basic_name": "Repulsor Blast",
         "basic": [
-            "Attack primary target for <color=#86e619>80%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage.",
-            "Attack primary target for <color=#86e619>210%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage.",
-            "Attack primary target for <color=#86e619>210%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage.",
-            "Attack primary target for <color=#86e619>280%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage.",
-            "Attack primary target for <color=#86e619>280%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>230%</color> damage."
+            "Attack primary target for <color=#86e619>80%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>70%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>70%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>210%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>210%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>280%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>280%</color> damage. <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>230%</color> damage.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Rocket Barrage",
         "special": [
@@ -2855,6 +2960,7 @@
             5
         ],
         "procs": [
+            "AssistNow",
             "Taunt",
             "SummonedMinion",
             "DefenseUp",
@@ -2951,7 +3057,9 @@
         ],
         "procs": [
             "Slow",
+            "AssistNow",
             "Taunt",
+            "SpeedUp",
             "HealBlock",
             "AbilityBlock"
         ],
@@ -3083,7 +3191,9 @@
             "On Enemy <color=#fff568>Taunt</color>, <color=#86e619>75%</color> chance to gain <color=#fff568>Offense Up</color> for <color=#86e619>2</color> turns.",
             "On Enemy <color=#fff568>Taunt</color>, gain <color=#fff568>Offense Up</color> for <color=#86e619>2</color> turns."
         ],
-        "procs": [],
+        "procs": [
+            "OffenseUp"
+        ],
         "ability": [
             "AbilityEnergy"
         ]
@@ -3291,7 +3401,7 @@
     "Loki": {
         "Name": "Loki",
         "Playable": 1,
-        "Description": "The God of Trickery who misleads and confuses his foes.",
+        "Description": "The Asgardian god of Mischief who misleads and confuses his foes.",
         "traits": [
             "Villain",
             "Cosmic",
@@ -3514,6 +3624,7 @@
             5
         ],
         "procs": [
+            "AssistNow",
             "Taunt",
             "HoT",
             "DefenseUp",
@@ -3903,13 +4014,13 @@
         ],
         "ultimate_name": "Mayhem",
         "ultimate": [
-            "Attack primary target for <color=#86e619>100%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>75%</color> damage. Gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>100%</color> damage. Gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>180%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>140%</color> damage. Gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>220%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. Gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>220%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>270%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>210%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>250%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Evade</color>."
+            "Attack primary target for <color=#86e619>100%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>75%</color> damage. Gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>140%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>100%</color> damage. Gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>180%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>140%</color> damage. Gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>220%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. Gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>220%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>170%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>270%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>210%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>320%</color> damage. <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>2</color> adjacent targets for <color=#86e619>250%</color> damage. Gain <color=#86e619>2</color> <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain."
         ],
         "ultimate_start": [
             5,
@@ -3954,12 +4065,12 @@
         "basic_name": "Custom I.C.E.R.",
         "basic": [
             "Attack primary target for <color=#86e619>100%</color> damage with +<color=#86e619>5%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally when you crit with this attack.",
-            "Attack primary target for <color=#86e619>100%</color> damage with +<color=#86e619>5%</color> Crit chance. <color=#86e619>30%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>80%</color> damage with +<color=#86e619>5%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.",
-            "Attack primary target for <color=#86e619>130%</color> damage with +<color=#86e619>10%</color> Crit chance. <color=#86e619>30%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>100%</color> damage with +<color=#86e619>10%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.",
-            "Attack primary target for <color=#86e619>160%</color> damage with +<color=#86e619>10%</color> Crit chance. <color=#86e619>30%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>120%</color> damage with +<color=#86e619>10%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.",
-            "Attack primary target for <color=#86e619>160%</color> damage with +<color=#86e619>15%</color> Crit chance. <color=#86e619>50%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>120%</color> damage with +<color=#86e619>15%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.",
-            "Attack primary target for <color=#86e619>200%</color> damage with +<color=#86e619>15%</color> Crit chance. <color=#86e619>50%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>150%</color> damage with +<color=#86e619>15%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.",
-            "Attack primary target for <color=#86e619>200%</color> damage with +<color=#86e619>20%</color> Crit chance. <color=#86e619>50%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>150%</color> damage with +<color=#86e619>20%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack."
+            "Attack primary target for <color=#86e619>100%</color> damage with +<color=#86e619>5%</color> Crit chance. <color=#86e619>30%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>80%</color> damage with +<color=#86e619>5%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> damage with +<color=#86e619>10%</color> Crit chance. <color=#86e619>30%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>100%</color> damage with +<color=#86e619>10%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage with +<color=#86e619>10%</color> Crit chance. <color=#86e619>30%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>120%</color> damage with +<color=#86e619>10%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage with +<color=#86e619>15%</color> Crit chance. <color=#86e619>50%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>120%</color> damage with +<color=#86e619>15%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage with +<color=#86e619>15%</color> Crit chance. <color=#86e619>50%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>150%</color> damage with +<color=#86e619>15%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage with +<color=#86e619>20%</color> Crit chance. <color=#86e619>50%</color> chance to Chain Attack up to <color=#86e619>4</color> adjacent targets for <color=#86e619>150%</color> damage with +<color=#86e619>20%</color> Crit chance. Grant +<color=#86e619>1</color> ability energy to an ally each time you crit with this attack.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Rally",
         "special": [
@@ -4027,6 +4138,7 @@
         ],
         "procs": [
             "DefenseUp",
+            "AssistNow",
             "OffenseUp",
             "SummonedMinion"
         ],
@@ -4163,7 +4275,8 @@
         ],
         "procs": [
             "Stun",
-            "Slow"
+            "Slow",
+            "Taunt"
         ],
         "ability": []
     },
@@ -4346,6 +4459,7 @@
             5
         ],
         "procs": [
+            "AssistNow",
             "Stealth",
             "SummonedMinion",
             "Counter"
@@ -4495,13 +4609,13 @@
         "unlockAt": 2,
         "basic_name": "M4 Carbine",
         "basic": [
-            "Attack primary target for <color=#86e619>70%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>60%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>1</color> additional target.",
-            "Attack primary target for <color=#86e619>100%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>80%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>1</color> additional target.",
-            "Attack primary target for <color=#86e619>130%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>100%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>1</color> additional target.",
-            "Attack primary target for <color=#86e619>150%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>120%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.",
-            "Attack primary target for <color=#86e619>170%</color> damage + <color=#86e619>20%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>130%</color> damage + <color=#86e619>20%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.",
-            "Attack primary target for <color=#86e619>200%</color> damage + <color=#86e619>20%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>160%</color> damage + <color=#86e619>20%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.",
-            "Attack primary target for <color=#86e619>240%</color> damage + <color=#86e619>20%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>190%</color> damage + <color=#86e619>20%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets."
+            "Attack primary target for <color=#86e619>70%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>60%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>1</color> additional target.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>100%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>80%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>1</color> additional target.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>100%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>1</color> additional target.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>150%</color> damage + <color=#86e619>10%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>120%</color> damage + <color=#86e619>10%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage + <color=#86e619>20%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>130%</color> damage + <color=#86e619>20%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage + <color=#86e619>20%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>160%</color> damage + <color=#86e619>20%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>240%</color> damage + <color=#86e619>20%</color> Piercing. <color=#86e619>30%</color> chance to Chain for <color=#86e619>190%</color> damage + <color=#86e619>20%</color> Piercing, maxing out at <color=#86e619>2</color> additional targets.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Grenade Launcher",
         "special": [
@@ -4595,13 +4709,13 @@
         ],
         "special_name": "Shockwave",
         "special": [
-            "Attack primary target for <color=#86e619>60%</color> damage + Clear <color=#86e619>1</color> positive effect. <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>40%</color> damage + clear <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>85%</color> damage + Clear <color=#86e619>1</color> positive effect. <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>60%</color> damage + clear <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>110%</color> damage + Clear <color=#86e619>1</color> positive effect. <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>80%</color> damage + clear <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>135%</color> damage + Clear <color=#86e619>1</color> positive effect. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>100%</color> damage + clear <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>160%</color> damage + Clear <color=#86e619>1</color> positive effect. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>120%</color> damage + clear <color=#86e619>1</color> positive effect.",
-            "Attack primary target for <color=#86e619>185%</color> damage + Clear <color=#86e619>2</color> positive effects. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>140%</color> damage + clear <color=#86e619>2</color> positive effects.",
-            "Attack primary target for <color=#86e619>210%</color> damage + Clear <color=#86e619>2</color> positive effects. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>160%</color> damage + clear <color=#86e619>2</color> positive effects."
+            "Attack primary target for <color=#86e619>60%</color> damage + clear <color=#86e619>1</color> positive effect. <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>40%</color> damage + clear <color=#86e619>1</color> positive effect.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>85%</color> damage + clear <color=#86e619>1</color> positive effect. <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>60%</color> damage + clear <color=#86e619>1</color> positive effect.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> damage + clear <color=#86e619>1</color> positive effect. <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>80%</color> damage + clear <color=#86e619>1</color> positive effect.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>135%</color> damage + clear <color=#86e619>1</color> positive effect. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>100%</color> damage + clear <color=#86e619>1</color> positive effect.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage + clear <color=#86e619>1</color> positive effect. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>120%</color> damage + clear <color=#86e619>1</color> positive effect.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>185%</color> damage + clear <color=#86e619>2</color> positive effects. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>140%</color> damage + clear <color=#86e619>2</color> positive effects.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>210%</color> damage + clear <color=#86e619>2</color> positive effects. <color=#86e619>40%</color> chance to Chain up to <color=#86e619>2</color> targets for <color=#86e619>160%</color> damage + clear <color=#86e619>2</color> positive effects.\\n\\nCounterattack breaks this Chain."
         ],
         "special_start": [
             3,
@@ -4945,7 +5059,8 @@
         "procs": [
             "DefenseDown",
             "SummonedMinion",
-            "OffenseUp"
+            "OffenseUp",
+            "AssistNow"
         ],
         "ability": [
             "AbilityEnergy"
@@ -5165,7 +5280,11 @@
             4
         ],
         "procs": [
+            "AssistNow",
             "Taunt",
+            "OffenseUp",
+            "DefenseUp",
+            "SpeedUp",
             "Counter"
         ],
         "ability": []
@@ -5374,13 +5493,13 @@
         "unlockAt": 1,
         "basic_name": "Concussion Grenade",
         "basic": [
-            "Attack primary target and adjacent targets for <color=#86e619>30%</color> damage and <color=#86e619>15%</color> Piercing.",
-            "Attack primary target and adjacent targets for <color=#86e619>70%</color> damage and <color=#86e619>15%</color> Piercing.",
-            "Attack primary target and adjacent targets for <color=#86e619>70%</color> damage and <color=#86e619>50%</color> Piercing.",
-            "Attack primary target and adjacent targets for <color=#86e619>120%</color> damage and <color=#86e619>50%</color> Piercing.",
-            "Attack primary target and adjacent targets for <color=#86e619>120%</color> damage and <color=#86e619>90%</color> Piercing.",
-            "Attack primary target and adjacent targets for <color=#86e619>160%</color> damage and <color=#86e619>90%</color> Piercing.",
-            "Attack primary target and adjacent targets for <color=#86e619>160%</color> damage and <color=#86e619>120%</color> Piercing."
+            "Attack primary target for <color=#86e619>30%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>20%</color> damage + <color=#86e619>15%</color> Piercing.",
+            "Attack primary target for <color=#86e619>70%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>20%</color> damage + <color=#86e619>15%</color> Piercing.",
+            "Attack primary target for <color=#86e619>70%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>50%</color> damage + <color=#86e619>15%</color> Piercing.",
+            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>50%</color> damage + <color=#86e619>15%</color> Piercing.",
+            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>90%</color> damage + <color=#86e619>15%</color> Piercing.",
+            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>90%</color> damage + <color=#86e619>15%</color> Piercing.",
+            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>15%</color> Piercing. Attack adjacent enemies for <color=#86e619>120%</color> damage + <color=#86e619>15%</color> Piercing."
         ],
         "special_name": "Barrage",
         "special": [
@@ -5547,7 +5666,8 @@
         ],
         "procs": [
             "OffenseDown",
-            "Slow"
+            "Slow",
+            "HoT"
         ],
         "ability": [
             "Revive"
@@ -5682,7 +5802,8 @@
         ],
         "procs": [
             "Stun",
-            "Slow"
+            "Slow",
+            "Taunt"
         ],
         "ability": []
     },
@@ -5699,23 +5820,23 @@
         "unlockAt": 2,
         "basic_name": "Agile Attack",
         "basic": [
-            "Attack primary target for <color=#86e619>80%</color> damage + <color=#86e619>50%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>50%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>50%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>40%</color> chance to gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>210%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>40%</color> chance to gain <color=#fff568>Evade</color>.",
-            "Attack primary target for <color=#86e619>210%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>40%</color> chance to gain <color=#fff568>Evade</color>."
+            "Attack primary target for <color=#86e619>80%</color> damage + <color=#86e619>50%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> damage + <color=#86e619>50%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> damage + <color=#86e619>50%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>150%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>30%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>40%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>220%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>50%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>270%</color> damage + <color=#86e619>70%</color> chance to Chain up to <color=#86e619>1</color> adjacent target for <color=#86e619>60%</color> damage. <color=#86e619>60%</color> chance to gain <color=#fff568>Evade</color>.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Web Slinger",
         "special": [
-            "Attack primary target for <color=#86e619>120%</color> damage and Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage. <color=#86e619>25%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>140%</color> damage and Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage. <color=#86e619>25%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>140%</color> damage and Chain to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>140%</color> damage and Chain to <color=#86e619>2</color> adjacent targets for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>140%</color> damage and Chain <color=#86e619>1</color>-<color=#86e619>3</color> adjacent targets for <color=#86e619>130%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>140%</color> damage and Chain <color=#86e619>1</color>-<color=#86e619>3</color> adjacent targets for <color=#86e619>130%</color> damage. <color=#86e619>100%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn.",
-            "Attack primary target for <color=#86e619>170%</color> damage and Chain <color=#86e619>1</color>-<color=#86e619>3</color> adjacent targets for <color=#86e619>130%</color> damage. <color=#86e619>100%</color> chance to apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>1</color> turn."
+            "Attack primary target for <color=#86e619>120%</color> damage + Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage. <color=#86e619>25%</color> chance to apply <color=#fff568>Defense Down</color> to each target.\\n\\nThis attack cannot be <color=#fff568>Countered</color>.",
+            "Attack primary target for <color=#86e619>140%</color> damage + Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>80%</color> damage. <color=#86e619>25%</color> chance to apply <color=#fff568>Defense Down</color> to each target.\\n\\nThis attack cannot be <color=#fff568>Countered</color>.",
+            "Attack primary target for <color=#86e619>140%</color> damage + Chain up to <color=#86e619>2</color> adjacent targets for <color=#86e619>100%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Defense Down</color> to each target.\\n\\nThis attack cannot be <color=#fff568>Countered</color>.",
+            "Attack primary target for <color=#86e619>150%</color> damage + Chain to <color=#86e619>1</color> -<color=#86e619>2</color> adjacent targets for <color=#86e619>110%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Defense Down</color> to each target.\\n\\nThis attack cannot be <color=#fff568>Countered</color>.",
+            "Attack primary target for <color=#86e619>160%</color> damage + Chain to <color=#86e619>1</color> -<color=#86e619>2</color> adjacent targets for <color=#86e619>120%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Defense Down</color> to each target.\\n\\nThis attack cannot be <color=#fff568>Countered</color>.",
+            "Attack primary target for <color=#86e619>190%</color> damage + Chain to <color=#86e619>2</color> -<color=#86e619>3</color> adjacent targets for <color=#86e619>150%</color> damage. Apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>2</color> turns.\\n\\nThis attack cannot be <color=#fff568>Countered</color>.",
+            "Attack primary target for <color=#86e619>200%</color> damage + Chain to <color=#86e619>2</color> -<color=#86e619>3</color> adjacent targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Defense Down</color> to each target for <color=#86e619>2</color> turns.\\n\\nThis attack cannot be <color=#fff568>Countered</color>."
         ],
         "special_start": [
             3,
@@ -5741,17 +5862,17 @@
             "Gain +<color=#86e619>10%</color> Dodge chance.",
             "Gain +<color=#86e619>15%</color> Dodge chance.",
             "Gain +<color=#86e619>20%</color> Dodge chance.",
-            "Gain +<color=#86e619>25%</color> Dodge chance."
+            "Gain +<color=#86e619>25%</color> Dodge chance.\\n\\nOn Dodge, Fill Speed Bar by +<color=#86e619>10%</color>."
         ],
         "ultimate_name": "Tangled Web",
         "ultimate": [
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>140%</color> damage.",
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>200%</color> damage.",
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>260%</color> damage.",
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>320%</color> damage.",
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>380%</color> damage.",
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>440%</color> damage.",
-            "Apply <color=#fff568>Stun</color> to primary target for <color=#86e619>1</color> turn + attack primary target for <color=#86e619>520%</color> damage."
+            "Attack primary target for <color=#86e619>140%</color> damage + apply <color=#fff568>Stun</color>.",
+            "Attack primary target for <color=#86e619>200%</color> damage + apply <color=#fff568>Stun</color>.",
+            "Attack primary target for <color=#86e619>260%</color> damage + apply <color=#fff568>Stun</color>.",
+            "Attack primary target for <color=#86e619>320%</color> damage + apply <color=#fff568>Stun</color>.",
+            "Attack primary target for <color=#86e619>380%</color> damage + apply <color=#fff568>Stun</color>.",
+            "Attack primary target for <color=#86e619>440%</color> damage + apply <color=#fff568>Stun</color> and <color=#fff568>Slow</color>.",
+            "Attack primary target for <color=#86e619>500%</color> damage + apply <color=#fff568>Stun</color> and <color=#fff568>Slow</color>."
         ],
         "ultimate_start": [
             2,
@@ -5774,13 +5895,16 @@
         "procs": [
             "Evade",
             "DefenseDown",
-            "Stun"
+            "Stun",
+            "Slow"
         ],
-        "ability": []
+        "ability": [
+            "FillSpeed"
+        ]
     },
     "StarLord": {
         "Name": "Star-Lord",
-        "Playable": 1,
+        "Playable": 0,
         "Description": "A charismatic leader who generates ability energy for allies and distracts enemies.",
         "traits": [
             "Hero",
@@ -5792,13 +5916,13 @@
         "unlockAt": 5,
         "basic_name": "Element Gun",
         "basic": [
-            "Attack primary target for <color=#86e619>90%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>1</color> additional target for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>1</color> additional target for <color=#86e619>100%</color> damage.",
-            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>1</color> additional target for <color=#86e619>140%</color> damage.",
-            "Attack primary target for <color=#86e619>190%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>140%</color> damage.",
-            "Attack primary target for <color=#86e619>230%</color> damage + <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>180%</color> damage.",
-            "Attack primary target for <color=#86e619>260%</color> damage + <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>210%</color> damage.",
-            "Attack primary target for <color=#86e619>300%</color> damage + <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>250%</color> damage."
+            "Attack primary target for <color=#86e619>90%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>1</color> additional target for <color=#86e619>70%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>1</color> additional target for <color=#86e619>100%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>1</color> additional target for <color=#86e619>140%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>190%</color> damage + <color=#86e619>20%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>140%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>230%</color> damage + <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>180%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>260%</color> damage + <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>210%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>300%</color> damage + <color=#86e619>30%</color> chance to Chain up to <color=#86e619>2</color> additional targets for <color=#86e619>250%</color> damage.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Clever Distraction",
         "special": [
@@ -5865,7 +5989,8 @@
             5
         ],
         "procs": [
-            "AccuracyDown"
+            "AccuracyDown",
+            "AssistNow"
         ],
         "ability": [
             "AbilityEnergy"
@@ -5874,12 +5999,13 @@
     "Thanos": {
         "Name": "Thanos",
         "Playable": 0,
-        "Description": "description",
+        "Description": "A Titan Eternal who delivers crushing blows that drain his foes and taunt his enemies.",
         "traits": [
             "Villain",
             "Cosmic",
             "Mystic",
-            "Protector"
+            "Protector",
+            "Eternal"
         ],
         "unlockAt": 3,
         "basic_name": "Power Punch",
@@ -5991,13 +6117,13 @@
         ],
         "special_name": "Hammer Throw",
         "special": [
-            "Attack primary target for <color=#86e619>85%</color> damage. + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>85%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>150%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>70%</color> damage.",
-            "Attack primary target for <color=#86e619>150%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>140%</color> damage.",
-            "Attack primary target for <color=#86e619>200%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>140%</color> damage.",
-            "Attack primary target for <color=#86e619>200%</color> damage. + <color=#86e619>70%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>200%</color> damage.",
-            "Attack primary target for <color=#86e619>250%</color> damage. + <color=#86e619>70%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>200%</color> damage."
+            "Attack primary target for <color=#86e619>85%</color> damage. + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>70%</color> damage.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>85%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>70%</color> damage.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>150%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>70%</color> damage.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>150%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>140%</color> damage.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage. + <color=#86e619>60%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>140%</color> damage.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage. + <color=#86e619>70%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>200%</color> damage.\\n\\nDodge breaks this Chain.",
+            "Attack primary target for <color=#86e619>250%</color> damage. + <color=#86e619>70%</color> chance to Chain to up to <color=#86e619>9</color> adjacent targets for <color=#86e619>200%</color> damage.\\n\\nDodge breaks this Chain."
         ],
         "special_start": [
             3,
@@ -6067,7 +6193,8 @@
             "Cosmic",
             "Mystic",
             "Brawler",
-            "Kree"
+            "Kree",
+            "Eternal"
         ],
         "unlockAt": 4,
         "basic_name": "Overwhelming Assault",
@@ -6240,6 +6367,7 @@
             5
         ],
         "procs": [
+            "AssistNow",
             "SummonedMinion"
         ],
         "ability": [
@@ -6658,7 +6786,7 @@
     "Vision": {
         "Name": "Vision",
         "Playable": 0,
-        "Description": "Description",
+        "Description": "A synthetic being that avoids enemy attacks and disables his foes.",
         "traits": [
             "Hero",
             "Global",
@@ -6669,13 +6797,13 @@
         "unlockAt": 2,
         "basic_name": "Heavy Hitter",
         "basic": [
-            "Attack primary target for <color=#86e619>80%</color> damage + <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>50%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>30%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.",
-            "Attack primary target for <color=#86e619>100%</color> damage + <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>80%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>30%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.",
-            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>90%</color> damage. <color=#86e619>70%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.",
-            "Attack primary target for <color=#86e619>140%</color> damage + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>120%</color> damage. <color=#86e619>70%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.",
-            "Attack primary target for <color=#86e619>170%</color> damage + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>140%</color> damage. <color=#86e619>70%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.",
-            "Attack primary target for <color=#86e619>190%</color> damage + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>150%</color> damage. Apply <color=#fff568>Offense Down</color> against <color=#fff568>TECH</color> each enemy and <color=#86e619>80%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.",
-            "Attack primary target for <color=#86e619>200%</color> damage + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>2</color> additional targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Offense Down</color> against <color=#fff568>TECH</color> each enemy and <color=#86e619>80%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets."
+            "Attack primary target for <color=#86e619>80%</color> damage + <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> additional target for <color=#86e619>50%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>30%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>100%</color> damage + <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> additional target for <color=#86e619>80%</color> damage. <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>30%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>120%</color> damage + <color=#86e619>30%</color> chance to Chain to up to <color=#86e619>1</color> additional target for <color=#86e619>90%</color> damage. <color=#86e619>70%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>140%</color> damage + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> additional targets for <color=#86e619>120%</color> damage. <color=#86e619>70%</color> chance to apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>170%</color> damage + <color=#86e619>50%</color> chance to Chain to up to <color=#86e619>1</color> additional target for <color=#86e619>140%</color> damage. Apply <color=#fff568>Offense Down</color> against each <color=#fff568>TECH</color> enemy and <color=#86e619>50%</color> chance to apply <color=#fff568>Offense Down</color> against additional targets.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>210%</color> damage + Chain to <color=#86e619>1</color> additional target for <color=#86e619>170%</color> damage. Apply <color=#fff568>Offense Down</color> to each target + apply <color=#fff568>Bleed</color> against each <color=#fff568>TECH</color> enemy.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>260%</color> damage + Chain to up to <color=#86e619>2</color> additional targets for <color=#86e619>220%</color> damage. Apply <color=#fff568>Offense Down</color> to each target + apply <color=#fff568>Bleed</color> against each <color=#fff568>TECH</color> enemy.\\n\\nCounterattack breaks this Chain."
         ],
         "special_name": "Dive Bomb",
         "special": [
@@ -6684,8 +6812,8 @@
             "Attack primary target for <color=#86e619>120%</color> damage + adjacent targets for <color=#86e619>90%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target.",
             "Attack primary target for <color=#86e619>140%</color> damage + adjacent targets for <color=#86e619>100%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target.",
             "Attack primary target for <color=#86e619>160%</color> damage + adjacent targets for <color=#86e619>120%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target.",
-            "Attack primary target for <color=#86e619>180%</color> damage + adjacent targets for <color=#86e619>140%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target.",
-            "Attack primary target for <color=#86e619>200%</color> damage + adjacent targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target."
+            "Attack primary target for <color=#86e619>210%</color> damage + adjacent targets for <color=#86e619>140%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target + <color=#86e619>1</color> additional target.",
+            "Attack primary target for <color=#86e619>230%</color> damage + adjacent targets for <color=#86e619>160%</color> damage. Apply <color=#fff568>Ability Block</color> to primary target + <color=#86e619>1</color> additional target."
         ],
         "special_start": [
             4,
@@ -6708,20 +6836,20 @@
         "passive_name": "Density Manipulation",
         "passive": [
             "Gain +<color=#86e619>15%</color> Extra Dodge chance.",
-            "Gain +<color=#86e619>15%</color> Extra Dodge chance. On Spawn, Lowest Health <color=#fff568>TECH</color> ally gains <color=#fff568>Defense Up</color>.",
-            "Gain +<color=#86e619>20%</color> Extra Dodge chance. On Spawn, Lowest Health <color=#fff568>TECH</color> ally gains <color=#fff568>Defense Up</color>.",
-            "Gain +<color=#86e619>20%</color> Extra Dodge chance. On Spawn, the <color=#86e619>2</color> Lowest Health <color=#fff568>TECH</color> allies gain <color=#fff568>Defense Up</color>.",
-            "Gain +<color=#86e619>25%</color> Extra Dodge chance. On Spawn, the <color=#86e619>2</color> Lowest Health <color=#fff568>TECH</color> allies gain <color=#fff568>Defense Up</color>."
+            "Gain +<color=#86e619>15%</color> Extra Dodge chance. Gain <color=#fff568>Defense Up</color> for <color=#86e619>2</color> turns. On Spawn, Lowest Health <color=#fff568>TECH</color> ally gains <color=#fff568>Defense Up</color>.",
+            "Gain +<color=#86e619>20%</color> Extra Dodge chance. Gain <color=#fff568>Defense Up</color> for <color=#86e619>2</color> turns. On Spawn, Lowest Health <color=#fff568>TECH</color> ally gains <color=#fff568>Defense Up</color>.",
+            "Gain +<color=#86e619>20%</color> Extra Dodge chance. Gain <color=#fff568>Defense Up</color> for <color=#86e619>2</color> turns. On Spawn, all <color=#fff568>TECH</color> allies gain <color=#fff568>Defense Up</color> for <color=#86e619>2</color> turns.",
+            "Gain +<color=#86e619>25%</color> Extra Dodge chance. Gain <color=#fff568>Defense Up</color> for <color=#86e619>2</color> turns. On Spawn, all <color=#fff568>TECH</color> allies gain <color=#fff568>Defense Up</color> for <color=#86e619>2</color> turns."
         ],
         "ultimate_name": "Solar Beam",
         "ultimate": [
-            "Attack all targets for <color=#86e619>90%</color> damage + <color=#86e619>30%</color> chance to clear <color=#86e619>1</color> positive effect.",
-            "Attack all targets for <color=#86e619>120%</color> damage + <color=#86e619>30%</color> chance to clear <color=#86e619>1</color> positive effect.",
-            "Attack all targets for <color=#86e619>140%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>1</color> positive effect.",
-            "Attack all targets for <color=#86e619>170%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>1</color> positive effect.",
-            "Attack all targets for <color=#86e619>190%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>2</color> positive effects.",
-            "Attack all targets for <color=#86e619>220%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>2</color> positive effects.",
-            "Attack all targets for <color=#86e619>250%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>2</color> positive effects."
+            "Attack all targets for <color=#86e619>90%</color> damage + <color=#86e619>30%</color> chance to clear <color=#86e619>1</color> positive effect on each target.",
+            "Attack all targets for <color=#86e619>120%</color> damage + <color=#86e619>30%</color> chance to clear <color=#86e619>1</color> positive effect on each target.",
+            "Attack all targets for <color=#86e619>140%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>1</color> positive effect on each target.",
+            "Attack all targets for <color=#86e619>170%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>1</color> positive effect on each target.",
+            "Attack all targets for <color=#86e619>190%</color> damage + <color=#86e619>50%</color> chance to clear <color=#86e619>2</color> positive effects on each target.",
+            "Attack all targets for <color=#86e619>220%</color> damage + clear <color=#86e619>2</color> positive effects on each target.",
+            "Attack all targets for <color=#86e619>250%</color> damage + clear <color=#86e619>2</color> positive effects on each target."
         ],
         "ultimate_start": [
             4,
@@ -6743,11 +6871,104 @@
         ],
         "procs": [
             "OffenseDown",
-            "AbilityBlock"
+            "DoT",
+            "AbilityBlock",
+            "DefenseUp"
         ],
         "ability": [
             "ClearPositive"
         ]
+    },
+    "Wasp": {
+        "Name": "Wasp",
+        "Playable": 0,
+        "Description": "A highly elusive blaster capable of stunning and chaining to multiple opponents.",
+        "traits": [
+            "Hero",
+            "Global",
+            "Tech",
+            "Blaster"
+        ],
+        "unlockAt": 3,
+        "basic_name": "Sting and Move",
+        "basic": [
+            "Attack primary target for <color=#86e619>95%</color> damage + <color=#86e619>20%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>70%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> damage + <color=#86e619>20%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>100%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>160%</color> damage + <color=#86e619>25%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>130%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>200%</color> damage + <color=#86e619>25%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>150%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>225%</color> damage + <color=#86e619>30%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>180%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>260%</color> damage + <color=#86e619>30%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>210%</color> damage.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>290%</color> damage + <color=#86e619>30%</color> chance to Chain to <color=#86e619>1</color> adjacent target for <color=#86e619>240%</color> damage.\\n\\nCounterattack breaks this Chain."
+        ],
+        "special_name": "Blasters",
+        "special": [
+            "Attack primary target for <color=#86e619>90%</color> damage + <color=#86e619>50%</color> chance to Bonus attack for <color=#86e619>65%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>.",
+            "Attack primary target for <color=#86e619>130%</color> damage + <color=#86e619>50%</color> chance to Bonus attack for <color=#86e619>85%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>.",
+            "Attack primary target for <color=#86e619>165%</color> damage + <color=#86e619>50%</color> chance to Bonus attack for <color=#86e619>130%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>.",
+            "Attack primary target for <color=#86e619>190%</color> damage + <color=#86e619>50%</color> chance to Bonus attack for <color=#86e619>150%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>.",
+            "Attack primary target for <color=#86e619>200%</color> damage + Bonus attack <color=#86e619>1</color>-<color=#86e619>2</color> times for <color=#86e619>150%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>.",
+            "Attack primary target for <color=#86e619>220%</color> damage + Bonus attack <color=#86e619>1</color>-<color=#86e619>2</color> times for <color=#86e619>170%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>.",
+            "Attack primary target for <color=#86e619>250%</color> damage + Bonus attack <color=#86e619>1</color>-<color=#86e619>2</color> times for <color=#86e619>200%</color> damage.\\n\\nIf <color=#fff568>Charged</color>, then in addition, <color=#fff568>Stun</color> the target. Then lose <color=#fff568>Charged</color>."
+        ],
+        "special_start": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "special_cost": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "passive_name": "Shrink",
+        "passive": [
+            "On Dodge, gain <color=#fff568>Charged</color>.\\nGain+<color=#86e619>5%</color> Dodge chance.",
+            "On Dodge, gain <color=#fff568>Charged</color>.\\nGain+<color=#86e619>10%</color> Dodge chance.",
+            "On Dodge, gain <color=#fff568>Charged</color>.\\nGain+<color=#86e619>15%</color> Dodge chance.",
+            "On Dodge, gain <color=#fff568>Charged</color>.\\nGain+<color=#86e619>20%</color> Dodge chance.",
+            "On Dodge, gain <color=#fff568>Charged</color>.\\nGain+<color=#86e619>25%</color> Dodge chance."
+        ],
+        "ultimate_name": "Flight of the Wasp",
+        "ultimate": [
+            "Attack all for <color=#86e619>90%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>",
+            "Attack all for <color=#86e619>125%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>",
+            "Attack all for <color=#86e619>160%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>",
+            "Attack all for <color=#86e619>195%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>",
+            "Attack all for <color=#86e619>235%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>",
+            "Attack all for <color=#86e619>270%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>",
+            "Attack all for <color=#86e619>300%</color> damage, including <color=#fff568>Stealthed</color> targets.\\n\\nThis attack cannot be <color=#fff568>Countered.</color>"
+        ],
+        "ultimate_start": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "ultimate_cost": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "procs": [
+            "Stun",
+            "Charged"
+        ],
+        "ability": []
     },
     "WinterSoldier": {
         "Name": "Winter Soldier",
@@ -6844,7 +7065,7 @@
     "Wolverine": {
         "Name": "Wolverine",
         "Playable": 0,
-        "Description": "Wolverine Description",
+        "Description": "A mutant armed with adamantium claws that ignore armor and tear through his opponents.",
         "traits": [
             "Hero",
             "Global",
@@ -6865,13 +7086,13 @@
         ],
         "special_name": "Slice and Dice",
         "special": [
-            "Attack primary target for <color=#86e619>70%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain up to <color=#86e619>2</color> targets for <color=#86e619>50%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.",
-            "Attack primary target for <color=#86e619>80%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain up to <color=#86e619>2</color> targets for <color=#86e619>60%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.",
-            "Attack primary target for <color=#86e619>90%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain <color=#86e619>2</color>-<color=#86e619>3</color> targets for <color=#86e619>70%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.",
-            "Attack primary target for <color=#86e619>100%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain up to <color=#86e619>3</color> targets for <color=#86e619>70%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.",
-            "Attack primary target for <color=#86e619>110%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain up to <color=#86e619>3</color> targets for <color=#86e619>80%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.",
-            "Attack primary target for <color=#86e619>120%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain <color=#86e619>3</color>-<color=#86e619>4</color> targets for <color=#86e619>90%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.",
-            "Attack primary target for <color=#86e619>130%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain <color=#86e619>3</color>-<color=#86e619>4</color> targets for <color=#86e619>100%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit."
+            "Attack primary target for <color=#86e619>70%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>2</color> targets for <color=#86e619>50%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>80%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>2</color> targets for <color=#86e619>60%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>90%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>2</color>-<color=#86e619>3</color> targets for <color=#86e619>70%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>100%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>3</color> targets for <color=#86e619>70%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>110%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>3</color> targets for <color=#86e619>80%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>120%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>3</color>-<color=#86e619>4</color> targets for <color=#86e619>90%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain.",
+            "Attack primary target for <color=#86e619>130%</color> Piercing + apply <color=#fff568>Bleed</color> on Crit. Chain to <color=#86e619>3</color>-<color=#86e619>4</color> targets for <color=#86e619>100%</color> Piercing + apply <color=#fff586>Bleed</color> on Crit.\\n\\nCounterattack breaks this Chain."
         ],
         "special_start": [
             4,
@@ -7159,7 +7380,7 @@
     "AimOperator": {
         "Name": "A.I.M. Operator",
         "Playable": 1,
-        "Description": "A.I.M. operator who coordinates the team",
+        "Description": "A.I.M. operator who coordinates the team.",
         "traits": [
             "Operator",
             "Global",
@@ -7281,7 +7502,7 @@
     "HandOperator": {
         "Name": "Hand Operator",
         "Playable": 1,
-        "Description": "Hand ninja that can coordinate events around them",
+        "Description": "Hand ninja who can coordinate events around them.",
         "traits": [
             "Operator",
             "City",
@@ -7324,7 +7545,7 @@
     "HydraOperator": {
         "Name": "Hydra Operator",
         "Playable": 1,
-        "Description": "Hydra communications officer who can manipulate his surroundings",
+        "Description": "Hydra communications officer who can manipulate his surroundings.",
         "traits": [
             "Operator",
             "Global",
@@ -7448,7 +7669,7 @@
     "KreeOperator": {
         "Name": "Kree Operator",
         "Playable": 1,
-        "Description": "Kree officer in charge of operations",
+        "Description": "Kree officer in charge of operations.",
         "traits": [
             "Operator",
             "Cosmic",
@@ -7490,7 +7711,7 @@
     "MercOperator": {
         "Name": "Mercenary Operator",
         "Playable": 1,
-        "Description": "Mercenary communications officer ",
+        "Description": "Mercenary communications officer who can manipulate his surroundings.",
         "traits": [
             "Operator",
             "City",
@@ -7782,7 +8003,7 @@
     "UltronOperator": {
         "Name": "Ultron",
         "Playable": 1,
-        "Description": "Ultron description",
+        "Description": "A robotic menace who copies positive effects and summons robotic allies.",
         "traits": [
             "Operator",
             "Global",
@@ -7823,7 +8044,7 @@
     "VIPMaleAOperator": {
         "Name": "Civilian",
         "Playable": 1,
-        "Description": "Description",
+        "Description": "Civilian in need of saving.",
         "traits": [
             "Operator",
             "Civilian"
@@ -7860,7 +8081,7 @@
     "VIPMaleBOperator": {
         "Name": "Civilian",
         "Playable": 1,
-        "Description": "Description",
+        "Description": "Civilian in need of saving.",
         "traits": [
             "Operator",
             "Civilian"
@@ -7897,7 +8118,7 @@
     "VIPMaleCOperator": {
         "Name": "Civilian",
         "Playable": 1,
-        "Description": "Description",
+        "Description": "Civilian in need of saving.",
         "traits": [
             "Operator",
             "Civilian"
@@ -7992,7 +8213,8 @@
             null
         ],
         "procs": [
-            "DefenseUp"
+            "DefenseUp",
+            "Stealth"
         ],
         "ability": [
             "Drain"
